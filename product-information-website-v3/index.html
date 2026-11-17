@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>InfoSpec — Product Information Website (Home)</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- Purpose Announcement Bar -->
+  <div class="purpose-banner">
+    <div class="container">
+      <strong>Official Product Information Website:</strong> Dedicated portal for verified product specs, comparisons, manuals &amp; authenticity checks.
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <header class="navbar">
+    <div class="container nav-content">
+      <a href="index.html" class="logo">Info<span>Spec</span> <small>Product Portal</small></a>
+      <nav class="nav-links" id="navLinks">
+        <a href="index.html" class="active">Home</a>
+        <a href="products.html" class="">Products</a>
+        <a href="product-details.html" class="">Product Details</a>
+        <a href="compare.html" class="">Compare</a>
+        <a href="manuals.html" class="">Manuals &amp; Warranty</a>
+        <a href="verify.html" class="">Verify Product</a>
+      </nav>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle Menu">&#9776;</button>
+    </div>
+  </header>
+
+  <!-- Hero Section explaining the website's exact purpose -->
+  <section class="hero">
+    <div class="container hero-center">
+      <span class="pill">Centralized Product Information System</span>
+      <h1>Complete Product Information, Organized Clearly Across Dedicated Pages</h1>
+      <p class="hero-subtitle">
+        Welcome to <strong>InfoSpec</strong>—an official product information website built to help customers,
+        distributors, and buyers inspect full technical specifications, compare models side-by-side,
+        download user manuals, and verify genuine product serial numbers.
+      </p>
+      <div class="hero-actions">
+        <a href="products.html" class="btn btn-primary">Browse All Products</a>
+        <a href="compare.html" class="btn btn-outline">Compare Models</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Website Sections / Pages Directory -->
+  <section class="section bg-light">
+    <div class="container">
+      <div class="section-header">
+        <h2>What You Can Do on This Website</h2>
+        <p>Explore each dedicated page depending on the product information you need.</p>
+      </div>
+
+      <div class="nav-cards-grid">
+        <a href="products.html" class="nav-card">
+          <span class="step-num">Page 01</span>
+          <h3>Product Catalog</h3>
+          <p>Search and filter our complete lineup of products by name, model code, or category.</p>
+          <span class="card-link">Open Product Catalog &rarr;</span>
+        </a>
+
+        <a href="product-details.html" class="nav-card">
+          <span class="step-num">Page 02</span>
+          <h3>Full Product Specifications</h3>
+          <p>View detailed hardware tables, dimensions, box contents, and key features for any product.</p>
+          <span class="card-link">View Product Specs &rarr;</span>
+        </a>
+
+        <a href="compare.html" class="nav-card">
+          <span class="step-num">Page 03</span>
+          <h3>Side-by-Side Comparison</h3>
+          <p>Select any two product models to compare their exact technical specifications row by row.</p>
+          <span class="card-link">Compare Products &rarr;</span>
+        </a>
+
+        <a href="manuals.html" class="nav-card">
+          <span class="step-num">Page 04</span>
+          <h3>Manuals, Safety &amp; Warranty</h3>
+          <p>Access setup guides, safety compliance sheets, FAQs, and 24-month warranty coverage details.</p>
+          <span class="card-link">Open Documentation &rarr;</span>
+        </a>
+
+        <a href="verify.html" class="nav-card">
+          <span class="step-num">Page 05</span>
+          <h3>Verify Product Authenticity</h3>
+          <p>Check your product box serial number to confirm genuine origin and active warranty status.</p>
+          <span class="card-link">Check Serial Number &rarr;</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Products Preview -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Featured Products</h2>
+        <p>Select a product to open its dedicated specification page.</p>
+      </div>
+      <div id="featuredGrid" class="product-grid"></div>
+      <div style="text-align: center; margin-top: 32px;">
+        <a href="products.html" class="btn btn-primary">View Complete Catalog &rarr;</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <strong>InfoSpec — Official Product Information Website</strong>
+        <p>Centralized product catalog, technical specifications, user guides &amp; authenticity verification.</p>
+      </div>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="compare.html">Compare</a>
+        <a href="manuals.html">Manuals</a>
+        <a href="verify.html">Verify</a>
+      </div>
+    </div>
+  </footer>
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Verify Product Authenticity — InfoSpec</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- Purpose Announcement Bar -->
+  <div class="purpose-banner">
+    <div class="container">
+      <strong>Official Product Information Website:</strong> Dedicated portal for verified product specs, comparisons, manuals &amp; authenticity checks.
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <header class="navbar">
+    <div class="container nav-content">
+      <a href="index.html" class="logo">Info<span>Spec</span> <small>Product Portal</small></a>
+      <nav class="nav-links" id="navLinks">
+        <a href="index.html" class="">Home</a>
+        <a href="products.html" class="">Products</a>
+        <a href="product-details.html" class="">Product Details</a>
+        <a href="compare.html" class="">Compare</a>
+        <a href="manuals.html" class="">Manuals &amp; Warranty</a>
+        <a href="verify.html" class="active">Verify Product</a>
+      </nav>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle Menu">&#9776;</button>
+    </div>
+  </header>
+
+  <section class="page-header">
+    <div class="container">
+      <span class="pill">Page 05 • Authenticity &amp; Support</span>
+      <h1>Verify Product Serial Number</h1>
+      <p>Confirm that your product is genuine and check its active warranty coverage period.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container narrow">
+      <div class="verify-box">
+        <h2>Serial Number Lookup</h2>
+        <p>Enter the serial number printed on your product packaging (try <code>IS-2026-8841</code> to test).</p>
+        <form id="verifyForm" class="verify-form">
+          <input type="text" id="serialInput" placeholder="e.g., IS-2026-8841" required />
+          <button type="submit" class="btn btn-primary">Verify Product</button>
+        </form>
+        <div id="verifyResult" class="verify-result"></div>
+      </div>
+
+      <div class="inquiry-box">
+        <h2>Request Additional Product Information</h2>
+        <p>Need bulk datasheets, CAD drawings, or distributor pricing? Send a direct inquiry below.</p>
+        <form id="inquiryForm" class="inquiry-form">
+          <input type="text" id="inqName" placeholder="Your Full Name" required />
+          <input type="email" id="inqEmail" placeholder="Email Address" required />
+          <input type="text" id="inqModel" placeholder="Product Model / SKU (optional)" />
+          <textarea id="inqMessage" rows="4" placeholder="What product details do you need?" required></textarea>
+          <button type="submit" class="btn btn-primary">Submit Request</button>
+          <p id="inqStatus" class="verify-result"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <strong>InfoSpec — Official Product Information Website</strong>
+        <p>Centralized product catalog, technical specifications, user guides &amp; authenticity verification.</p>
+      </div>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="compare.html">Compare</a>
+        <a href="manuals.html">Manuals</a>
+        <a href="verify.html">Verify</a>
+      </div>
+    </div>
+  </footer>
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
